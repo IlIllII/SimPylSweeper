@@ -36,7 +36,7 @@ And then start digging! Try to avoid bombs.
 
 ## Project Architecture
 
-This small project doesn't need too much of an explanation, but as a starting point: the `logic.py` module contains the underlying minesweeper game logic. It is playable by itself in the interpreter, but is much more fun with the GUI. The `gui.py` module contains code to run the GUI and game loop. It is implemented using PySimpleGUI. Finally, the main.py script is simply a script that plays the game.
+This small project doesn't need much of an explanation, but as a starting point: the `logic.py` module contains the underlying minesweeper game logic. It is playable by itself in the interpreter, but is more fun in the GUI. The `gui.py` module contains code to run the GUI and game loop. It is implemented using PySimpleGUI. Finally, the main.py script is simply a script that plays the game.
 
 ***
 
