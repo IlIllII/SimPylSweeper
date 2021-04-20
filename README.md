@@ -57,5 +57,6 @@ These are a number of enhancements that I may make in the future.
 
 1. Integrate logic.py and gui.py better, because there is some redundancy in computation, especially in updating the board.
 2. Speed up algorithms. Not a huge issue most of the time, but if you do massive boards the game can get less responsive.
+3. Change recursive functions to iterative functions as an exercise.
 
 **Happy Mining!**
