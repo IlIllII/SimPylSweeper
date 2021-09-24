@@ -1,7 +1,7 @@
 # SimPylSweeper
 **Minesweeper in Python with PySimpleGUI.**
 
-To play the game, run `main.py` in the approprite directory.
+To play the game, run `main.py` in the appropriate directory.
 
 ```console
 python main.py
