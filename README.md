@@ -47,9 +47,3 @@ And then start digging! Try to avoid bombs.
 7. Integrate logic.py and gui.py better, because there is some redundancy in computation, especially in updating the board.
 8. Speed up algorithms. Not a huge issue most of the time, but if you do massive boards the game can get less responsive.
 9. Change recursive functions to iterative functions as an exercise.
-
-***
-
-## Project Reflection
-
-This project was basically an excercise in creating the algorithmic logic of minesweeper and then building a GUI around it. I had previously written some simple programs using tkinter, but these were kind of difficult because I didn't really understand how GUIs worked. By using a different GUI framework it gave me a better sense of what a GUI actually does. This project also gave me some practice implementing algorithims outside of an academic context, which was fun.
