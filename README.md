@@ -52,6 +52,4 @@ And then start digging! Try to avoid bombs.
 
 ## Project Reflection
 
-This project was basically an excercise of creating the algorithmic logic of minesweeper and then building a GUI around it. I had previously written some simple programs using tkinter, but these were kind of difficult because I didn't really understand how GUIs worked. By using a different GUI framework it gave me a better sense of what a GUI actually does. This project also gave me some practice implementing algorithims outside of an academic context.
-
-***
+This project was basically an excercise in creating the algorithmic logic of minesweeper and then building a GUI around it. I had previously written some simple programs using tkinter, but these were kind of difficult because I didn't really understand how GUIs worked. By using a different GUI framework it gave me a better sense of what a GUI actually does. This project also gave me some practice implementing algorithims outside of an academic context, which was fun.
