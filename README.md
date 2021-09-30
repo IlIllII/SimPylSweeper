@@ -32,31 +32,26 @@ And then start digging! Try to avoid bombs.
 
 ![minesweeper_big_board](https://user-images.githubusercontent.com/78166995/115400188-fb780a00-a1b6-11eb-8e0b-21452e5b4b61.PNG)
 
-***
-
-## Project Architecture
-
-This small project doesn't need much of an explanation, but as a starting point: the `logic.py` module contains the underlying minesweeper game logic. It is playable by itself in the interpreter, but is more fun in the GUI. The `gui.py` module contains code to run the GUI and game loop. It is implemented using PySimpleGUI. Finally, the main.py script is simply a script that plays the game.
+**Happy Mining!**
 
 ***
 
-## Contributing
-
-These are a number of enhancements that I may make in the future.
-
-**New Features**:
+## Future Improvements
 
 1. A score system based on time and number of bombs, perhaps.
 2. A local leaderboard that tracks your top 10 high scores.
 3. Marking hidden tiles as bombs with right click.
 4. Bomb images instead of '.'.
 5. Global bomb reveal at game end.
-6. 3 dimensional minesweeper. Would require redoing the logic to generalize to higher dimensions.
+6. 3 dimensional minesweeper. Would require redoing some logic to generalize to higher dimensions.
+7. Integrate logic.py and gui.py better, because there is some redundancy in computation, especially in updating the board.
+8. Speed up algorithms. Not a huge issue most of the time, but if you do massive boards the game can get less responsive.
+9. Change recursive functions to iterative functions as an exercise.
 
-**Other Enhancements**:
+***
 
-1. Integrate logic.py and gui.py better, because there is some redundancy in computation, especially in updating the board.
-2. Speed up algorithms. Not a huge issue most of the time, but if you do massive boards the game can get less responsive.
-3. Change recursive functions to iterative functions as an exercise.
+## Project Reflection
 
-**Happy Mining!**
+This project was basically an excercise of creating the algorithmic logic of minesweeper and then building a GUI around it. I had previously written some simple programs using tkinter, but these were kind of difficult because I didn't really understand how GUIs worked. By using a different GUI framework it gave me a better sense of what a GUI actually does. This project also gave me some practice implementing algorithims outside of an academic context.
+
+***
